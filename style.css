@@ -1,0 +1,137 @@
+
+.iconsContainer{
+    display: flex;
+    border: 3px solid red;
+    height: 370px;
+    width: 550px;
+    background-color: black;
+    border-radius: 5%;
+
+}
+.iconsContainer, h1, h3{
+  margin-left: 20%;
+}
+.icons{
+    color: #fff;
+    margin: 170px 0 0 -100px;
+}
+.profile{
+  width: 280px;
+  height: 370px;
+  background-color: rgb(21, 10, 39);
+  border: 1px solid gold;
+  color: gold;
+  text-align: center;
+  border-radius: 12px;
+}
+li:nth-child(14){
+  color: rgb(10, 10, 10);
+  background-color: rgb(29, 15, 66);
+  border-radius: 12px;
+  color: gold;
+  border: 3px solid red;
+  font-weight: bold;
+}
+em{
+  text-decoration: underline;
+}
+
+
+img{
+    border-radius: 50%;
+}
+.right{
+  float: right;
+}
+ .img1{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: fatiha 15s  infinite alternate-reverse;
+  }
+  
+  @keyframes fatiha {
+    0%   {background-color:red; left:0px; top:300px;}
+    25%  {background-color:yellow; left:140px; top:20px;}
+    50%  {background-color:blue; left:100px; top:200px;}
+    75%  {background-color:green; left:200px; top:300px;}
+    100% {background-color:red; left:0px; top:330px;}
+  }
+ .img2{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: yamina 15s  infinite alternate-reverse;
+  }
+  
+  @keyframes yamina {
+    0%   {background-color:red; left:0px; top:200px;}
+    25%  {background-color:yellow; left:0px; top:300px;}
+    50%  {background-color:blue; left:100px; top:200px;}
+    75%  {background-color:green; left:10px; top:330px;}
+    100% {background-color:red; left:30px; top:300px;}
+  }
+ .img3{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: djennet 15s  infinite alternate-reverse;
+  }
+  
+  @keyframes djennet {
+    0%   {background-color:red; left:0px; top:160px;}
+    25%  {background-color:yellow; left:30px; top:0px;}
+    50%  {background-color:blue; left:70px; top:330px;}
+    75%  {background-color:green; left:-30px; top:60px;}
+    100% {background-color:black; left:-20px; top:0px;}
+  }
+ .img4{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: aammaria 15s  infinite alternate-reverse;
+  }
+  
+  @keyframes aammaria {
+    0%   {background-color:red; left:0px; top:200px;}
+    25%  {background-color:yellow; left:20px; top:0px;}
+    50%  {background-color:blue; left:-20px; top:30px;}
+    75%  {background-color:green; left:0px; top:80px;}
+    100% {background-color:rgb(0, 64, 255); left:10px; top:320px;}
+  }
+ .img5{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: aafifa 15s  infinite alternate-reverse;
+  }
+  
+  @keyframes aafifa {
+    0%   {background-color:red; left:0px; top:90px;}
+    25%  {background-color:yellow; left:0px; top:70px;}
+    50%  {background-color:blue; left:-20px; top:0px;}
+    75%  {background-color:green; left:10px; top:0px;}
+    100% {background-color:rgb(15, 192, 47); left:0px; top:320px;}
+  }
+ .img6{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: saadiya 15s  infinite alternate-reverse;
+  }
+  
+  @keyframes saadiya {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:-100px; top:0px;}
+    50%  {background-color:blue; left:-90px; top:20px;}
+    75%  {background-color:rgb(6, 54, 6); left:-120px; top:200px;}
+    100% {background-color:rgb(56, 54, 51); left:-160px; top:320px;}
+  }
+  
+  .footer{
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+    
