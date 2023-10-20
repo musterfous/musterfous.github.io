@@ -1,137 +1,214 @@
 
-.iconsContainer{
+@media (min-width: 450px) {
+    
+}
+body{
+    background-color: lightblue;
+}
+.logo{
+    position: relative;
+    animation: logo 25s infinite alternate-reverse;
+}
+@keyframes logo {
+    0%{top: 0px;left: 10px;}
+    25%{top: 10px;left: 20px;}
+    50%{top: 30px;left: 10px;}
+    75%{top: 10px;left: 180px;}
+    100%{top: 20px;left: 270px;}
+    
+}
+.container{
     display: flex;
-    border: 3px solid red;
-    height: 370px;
-    width: 550px;
-    background-color: black;
-    border-radius: 5%;
-
+    margin-right: 5px;
 }
-.iconsContainer, h1, h3{
-  margin-left: 20%;
-}
-.icons{
-    color: #fff;
-    margin: 170px 0 0 -100px;
-}
-.profile{
-  width: 280px;
-  height: 370px;
-  background-color: rgb(21, 10, 39);
-  border: 1px solid gold;
-  color: gold;
-  text-align: center;
-  border-radius: 12px;
-}
-li:nth-child(14){
-  color: rgb(10, 10, 10);
-  background-color: rgb(29, 15, 66);
-  border-radius: 12px;
-  color: gold;
-  border: 3px solid red;
-  font-weight: bold;
-}
-em{
-  text-decoration: underline;
-}
-
-
-img{
-    border-radius: 50%;
-}
-.right{
-  float: right;
-}
- .img1{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    animation: fatiha 15s  infinite alternate-reverse;
-  }
-  
-  @keyframes fatiha {
-    0%   {background-color:red; left:0px; top:300px;}
-    25%  {background-color:yellow; left:140px; top:20px;}
-    50%  {background-color:blue; left:100px; top:200px;}
-    75%  {background-color:green; left:200px; top:300px;}
-    100% {background-color:red; left:0px; top:330px;}
-  }
- .img2{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    animation: yamina 15s  infinite alternate-reverse;
-  }
-  
-  @keyframes yamina {
-    0%   {background-color:red; left:0px; top:200px;}
-    25%  {background-color:yellow; left:0px; top:300px;}
-    50%  {background-color:blue; left:100px; top:200px;}
-    75%  {background-color:green; left:10px; top:330px;}
-    100% {background-color:red; left:30px; top:300px;}
-  }
- .img3{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    animation: djennet 15s  infinite alternate-reverse;
-  }
-  
-  @keyframes djennet {
-    0%   {background-color:red; left:0px; top:160px;}
-    25%  {background-color:yellow; left:30px; top:0px;}
-    50%  {background-color:blue; left:70px; top:330px;}
-    75%  {background-color:green; left:-30px; top:60px;}
-    100% {background-color:black; left:-20px; top:0px;}
-  }
- .img4{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    animation: aammaria 15s  infinite alternate-reverse;
-  }
-  
-  @keyframes aammaria {
-    0%   {background-color:red; left:0px; top:200px;}
-    25%  {background-color:yellow; left:20px; top:0px;}
-    50%  {background-color:blue; left:-20px; top:30px;}
-    75%  {background-color:green; left:0px; top:80px;}
-    100% {background-color:rgb(0, 64, 255); left:10px; top:320px;}
-  }
- .img5{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    animation: aafifa 15s  infinite alternate-reverse;
-  }
-  
-  @keyframes aafifa {
-    0%   {background-color:red; left:0px; top:90px;}
-    25%  {background-color:yellow; left:0px; top:70px;}
-    50%  {background-color:blue; left:-20px; top:0px;}
-    75%  {background-color:green; left:10px; top:0px;}
-    100% {background-color:rgb(15, 192, 47); left:0px; top:320px;}
-  }
- .img6{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    animation: saadiya 15s  infinite alternate-reverse;
-  }
-  
-  @keyframes saadiya {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:-100px; top:0px;}
-    50%  {background-color:blue; left:-90px; top:20px;}
-    75%  {background-color:rgb(6, 54, 6); left:-120px; top:200px;}
-    100% {background-color:rgb(56, 54, 51); left:-160px; top:320px;}
-  }
-  
-  .footer{
-    color: black;
+.header:hover{
+    color: teal;
+    font-family: acme;
+    letter-spacing: 2px;
+    border: 2px solid teal;
     text-align: center;
-    margin-top: 40px;
+    border-radius: 50px;
+}
+.icons, .skills, .details, .various{
+    width: 360px;
+    height: 400px;
+    background-color: black;
+    margin-left: 1px;
+    border-radius: 12px;
+}
+.skillsTitle{
+    color: gold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footer{
+    text-align: center;
     font-weight: bold;
-  }
+}
+b{
+    color: red;
+}
+b:hover{
+    letter-spacing: 12px;
+    color: red;
+
+}
+img{
+    border-radius: 50px;
+}
+.img1{
+    position: relative;
+    animation: js 25s infinite alternate-reverse;
+    margin-top: 5px;
+    margin-bottom:10px;
+    margin-left:18px;
+    margin-top:18px;
+} 
+ @keyframes js{
+    0%{top: 0px;left: 0px;}
+    25%{top: 4px;left: 4px;}
+    50%{top: 0px;left: 3px;}
+    75%{top: 195px;left: 0px;}
+    100%{top: 3px;left: 2px;}
+}
+.img2{
+    position: relative;
+    animation: php 25s infinite alternate-reverse;
+    margin-top: 5px;
+    margin-bottom:10px;
+} 
+ @keyframes php{
+    0%{top: 10px;left: 0px;}
+    25%{top: 0px;left: 10px;}
+    50%{top: 190px;left: 7px;}
+    75%{top: 5px;left: 0px;}
+    100%{top: 7px;left: 5px;}
+}
+.img3{
+    position: relative;
+    animation: python 25s infinite alternate-reverse;
+    margin-top: 5px;
+    margin-bottom:10px;
+} 
+ @keyframes python{
+    0%{top: 0px;left: 0px;}
+    25%{top: 6px;left: 10px;}
+    50%{top: 0px;left: 3px;}
+    75%{top: 5px;left: 0px;}
+    100%{top: 67px;left: 5px;}
+}
+.img4{
+    position: relative;
+    animation: vbnet 25s infinite alternate-reverse;
+    margin-top: 5px;
+    margin-bottom:10px;
+} 
+ @keyframes vbnet{
+    0%{top: 0px;left: 0px;}
+    25%{top: 10px;left: 10px;}
+    50%{top: 0px;left: 10px;}
+    75%{top: 115px;left: 0px;}
+    100%{top: 197px;left: 5px;}
+}
+.img5{
+    position: relative;
+    animation: csharp 25s infinite alternate-reverse;
+    margin-top: 5px;
+    margin-bottom:10px;
+} 
+ @keyframes csharp{
+    0%{top: 0px;left: 4px;}
+    25%{top: 0px;left: 4px;}
+    50%{top: 70px;left: 6px;}
+    75%{top: 5px;left: 5px;}
+    100%{top: 63px;left: 7px;}
+}
+.img6{
+    position: relative;
+    animation: html5 25s infinite alternate-reverse;
+    margin-top: 5px;
+    margin-bottom:10px;
+} 
+ @keyframes html5{
+    0%{top: 0px;left: 0px;}
+    25%{top: 10px;left: 10px;}
+    50%{top: 130px;left: 10px;}
+    75%{top: 5px;left: 0px;}
+    100%{top: 7px;left: 5px;}
+}
+.img7{
+    position: relative;
+    animation: Three 25s infinite alternate-reverse;
+    margin-top: 10px;
+    margin-bottom:10px;
+} 
+ @keyframes Three{
+    0%{top: 0px;left: 0px;}
+    25%{top: 140px;left: 10px;}
+    50%{top: 0px;left: 10px;}
+    75%{top: 5px;left: 0px;}
+    100%{top: 7px;left: 5px;}
+}
+.img8{
+    position: relative;
+    animation: unity 25s infinite alternate-reverse;
+} 
+ @keyframes unity{
+    0%{top: 0px;left: 20px;}
+    25%{top: 10px;left: -10px;}
+    50%{top: 0px;left: 10px;}
+    75%{top: 135px;left: 0px;}
+    100%{top: 7px;left: 5px;}
+}
+.img9{
+    position: relative;
+    animation: react 25s infinite alternate-reverse;
+    margin-top: 10px;
+    margin-bottom:10px;
+} 
+ @keyframes react{
+    0%{top: 0px;left: 0px;}
+    25%{top: 5px;left: 7px;}
+    50%{top: 0px;left: 4px;}
+    75%{top: 5px;left: 0px;}
+    100%{top: 77px;left: 5px;}
+}
+.img10{
+    position: relative;
+    animation: jquery 25s infinite alternate-reverse;
+    margin-top: 10px;
+    margin-left:20px;
+} 
+ @keyframes jquery{
+    0%{top: 0px;left: 0px;}
+    25%{top: 53px;left: 1px;}
+    50%{top: 0px;left: 2px;}
+    75%{top: 5px;left: 0px;}
+    100%{top: 104px;left: 5px;}
+}
+.img11{
+    position: relative;
+    animation: java 25s infinite alternate-reverse;
+    margin-bottom:10px;
+} 
+ @keyframes java{
+    0%{top: 0px;left: 0px;}
+    25%{top: -70px;left: 20px;}
+    50%{top: 30px;left: 10px;}
+    75%{top: 5px;left: 30px;}
+    100%{top: 37px;left: 5px;}
+}
+.details{
+    border-radius: 45%;
+}
+ul{
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+}
+ 
+
+
+
     
