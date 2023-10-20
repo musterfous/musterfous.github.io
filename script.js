@@ -49,13 +49,25 @@ history.addEventListener('mouseenter',function(){
     history.style.color = "gold"
 })
 history.addEventListener('mouseleave',function(){
-    history.innerHTML="`<ol><li>I took a 'COBOL' course in <b>1981</b></li><li>Then I started teaching (mainly) English in <b>1982</b></li><li>Schooling-MT(Mus Terfous) was Registered 1997.</li><li>I re-started developing 1n <b>2015</b></li></ol>`"
+    history.innerHTML="`<ol><li>I took a COBOL course in <b>1981</b></li><li>Then I started teaching (mainly) English in <b>1982</b></li><li>Schooling-MT(Mus Terfous) was Registered 1997.</li><li>I re-started developing 1n <b>2015</b></li></ol>`"
     history.style.color = "gold"
 })
 const various = document.querySelector('.various')
-various.innerHTML="`<ol><li>I have many websites ready to deploy.</li><li>Educational apps such as:</li><li>Hangman, English quizzes, Italian word games from word puzzles magazines</li><li>Taxi drivers exam test(Regione Lombardia) </li></ol>`"
+various.innerHTML="`<ol><li>I have many websites ready to deploy.</li><li>Educational apps for example:</li><li>Hangman, English quizzes, Italian word games from word puzzles magazines</li><li>Taxi drivers exam test(Provincia di Milano) </li></ol>`"
 various.style.width = "300px"
 various.style.color="gold"
+
+
+
+various.addEventListener('mouseenter',function(){
+    various.innerHTML="`<ol><li>Ho molti sitiweb pronti a pubblicare</li><li>App educative come ad esempio: </li><li>L'impiccato, quiz linguistici, quiz basati sulle lingue italiano/inglese</li><li>Test d'inglese per Tassisti Milanesi (Provincia di Milano)</li></ol>`"
+    various.style.color = "gold"
+})
+various.addEventListener('mouseleave',function(){
+    various.innerHTML="`<ol><li>I have many websites ready to deploy.</li><li>Educational apps for example:</li><li>Hangman, English quizzes, Italian word games from word puzzles magazines</li><li>Taxi drivers exam test(Provincia di Milano) </li></ol>`"
+    various.style.color = "gold"
+})
+
 
 
 
