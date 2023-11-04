@@ -55,6 +55,7 @@ history.addEventListener('mouseleave',function(){
 const various = document.querySelector('.various')
 various.innerHTML="`<ol><li>I have many websites ready to deploy.</li><li>Educational apps for example:</li><li>Hangman, English quizzes, Italian word games from word puzzles magazines</li><li>Taxi drivers exam test(Provincia di Milano) </li></ol>`"
 various.style.width = "300px"
+
 various.style.color="gold"
 
 
